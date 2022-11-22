@@ -57,9 +57,9 @@ You are using the wrong user. Make sure you have started an Amazon Linux 2 EC2 i
 
 
 
-- 6) Nothing is working - "aaaahhhhhh"
+- 6) Nothing is working- 
 
-Don't panic. Use EC2 Instance Connect from the next lecture. Make sure you started an Amazon Linux 2 and you will be able to follow along with the tutorial :)
+Don't panic. Use EC2 Instance Connect. Make sure you started an Amazon Linux 2 and you will be able to follow along with the tutorial :)
 
 
 
@@ -67,3 +67,18 @@ Don't panic. Use EC2 Instance Connect from the next lecture. Make sure you start
 
 This is probably because you have stopped your EC2 instance and then started it again today. When you do so, the public IP of your EC2 instance will change. Therefore, in your command, or Putty configuration, please make sure to edit and save the new public IP.
 
+
+## Chmod numeric permisions Notation on Linux
+The command chmod changes the file mode bits of each given file according to mode, 
+
+| Octal Mode Number | Description
+| ----------------- |-------------------------
+| 0400              | Allows the owner to read
+| 0200              | Allows the owner to write
+| 0100              | Allows the owner to execute files and search in the directory
+| 0040              | Allows group members to read
+|                   |
+
+- 4 = r (Read)
+- 2 = w (Write)
+- 1 = x (eXecute)
